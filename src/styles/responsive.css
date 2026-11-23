@@ -1,0 +1,48 @@
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:980px){
+  .links,.nav .cta{display:none}
+  .burger{display:block}
+  .nav.open .links{display:flex;position:fixed;top:78px;left:16px;right:16px;flex-direction:column;background:rgba(250,250,250,.97);backdrop-filter:blur(14px);border-radius:24px;padding:14px;box-shadow:0 30px 60px -20px rgba(0,0,0,.3)}
+  .nav.open .links a{font-size:20px;padding:12px 16px;color:var(--ink)}
+  .nav.open .links .ind{display:none}
+  .nav .bar{background:rgba(250,250,250,.78);backdrop-filter:blur(14px)}
+  .hero-grid,.about-top,.about-bottom,.proj-head,.lead-head,.rgrid{grid-template-columns:1fr}
+  .hero-card-wrap{justify-self:center;margin-top:20px}
+  .float-badge{left:-14px}.float-b2{right:-10px}
+  .burst-a{display:none}
+  .sgrid{grid-template-columns:1fr 1fr}
+  .board{height:auto;margin-top:40px;display:flex;flex-direction:column;gap:56px;align-items:center;padding-bottom:70px}
+  .hang{position:relative;inset:auto!important;width:min(380px,92%)}
+  .hang:nth-child(odd){align-self:flex-end}.hang:nth-of-type(even){align-self:flex-start}
+  .still{position:relative;left:auto;top:auto;align-self:center}
+  .exp-head .squig{display:none}
+  .lead-stage{grid-template-columns:1fr;gap:30px}
+  .ring{width:190px;height:190px}.ring .core{inset:30px}.ring .core b{font-size:44px}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .slide-nav{justify-content:flex-start}
+}
+@media (max-width:600px){
+  .wrap{padding:0 16px}
+  .hero{padding-top:120px}
+  .burst{width:56px;height:56px}
+  .hero-actions{flex-wrap:wrap}
+  .hero-actions .doodle{display:none}
+  .hero-actions .meta{margin-left:0}
+  .hero-card{height:420px}
+  .hero-card .mono{font-size:110px}
+  .sgrid{grid-template-columns:1fr}
+  .proj{flex-basis:300px}
+  .slider{padding-left:16px;padding-right:16px}
+  .dark-card{min-height:320px}
+  .stat-card b{font-size:38px}
+  .dlg{padding:30px 22px 24px}
+  .cta-card{padding:70px 20px}
+  .cta-card .doodle{display:none}
+  .fgrid{grid-template-columns:1fr}
+  .aw{flex-direction:column;align-items:flex-start;gap:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  [data-reveal]{opacity:1;transform:none}
+  .hero h1 .ln>span{transform:none}
+}

@@ -1,0 +1,24 @@
+/* ---------- CTA + FOOTER ---------- */
+.contact{background:#fff;padding:40px 0 0}
+.cta-card{position:relative;border-radius:30px;background:var(--pink);color:#fff;overflow:hidden;text-align:center;padding:90px 30px}
+.cta-card canvas{position:absolute;inset:0;width:100%;height:100%}
+.cta-card>*:not(canvas){position:relative}
+.cta-card h2{font-size:clamp(32px,4.6vw,58px);max-width:760px;margin:0 auto 16px}
+.cta-card p{color:rgba(255,255,255,.88);max-width:440px;margin:0 auto 32px}
+.cta-card .row{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.cta-card .doodle{position:absolute;right:calc(50% - 250px);bottom:58px}
+.copy-mail{color:#fff;font-size:14px;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:9px 18px;transition:border-color .3s}
+.copy-mail:hover{border-color:#fff;color:#fff}
+footer{padding:70px 0 30px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+.fgrid p{color:#777;font-size:14px;max-width:290px;margin-top:12px}
+.fgrid h5{font-size:14px;font-weight:600;margin-bottom:12px}
+.fgrid ul{list-style:none;display:grid;gap:8px;font-size:14px;color:#666}
+.fgrid a:hover{color:var(--ink)}
+.fbot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:50px;padding-top:22px;font-size:13px;color:#888}
+.fbot .live{display:inline-flex;align-items:center;gap:8px}
+.fbot .live i{width:7px;height:7px;border-radius:50%;background:var(--pink);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.25}}
+.bigname{font-family:var(--head);font-weight:700;font-size:clamp(60px,16vw,230px);letter-spacing:-.06em;line-height:.8;color:transparent;-webkit-text-stroke:1px #f0b4c9;text-align:center;margin-top:40px;white-space:nowrap;user-select:none}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,120px);background:var(--ink);color:#fff;border-radius:999px;padding:10px 20px;font-size:14px;z-index:150;transition:transform .5s cubic-bezier(.2,1.3,.4,1)}
+.toast.show{transform:translate(-50%,0)}

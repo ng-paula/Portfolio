@@ -1,0 +1,24 @@
+/* ---------- EXPERIENCE ---------- */
+.exp{background:#fff;padding:110px 0 120px;overflow:hidden;
+  background-image:linear-gradient(#fae8ef 1px,transparent 1px),linear-gradient(90deg,#fae8ef 1px,transparent 1px);background-size:64px 64px;background-position:center top}
+.exp-head{max-width:480px;position:relative}
+.exp h2{font-size:clamp(30px,3.4vw,42px);margin:18px 0 16px}
+.exp-head p{color:#666}
+.exp-head .squig{position:absolute;right:-10px;bottom:30px}
+.board{position:relative;height:1080px;margin-top:-140px}
+.board svg.path{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.hang{position:absolute;width:360px}
+.hang .swing{transform-origin:50% 0;will-change:transform}
+.hang .pin{position:absolute;left:50%;top:-12px;width:24px;height:24px;margin-left:-12px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#f7a8c4,#b8255a 70%);box-shadow:0 3px 6px rgba(0,0,0,.35),inset 0 0 0 3px #fff;z-index:2}
+.hang .card{margin-top:8px;background:#f6f6f6;border-radius:26px;padding:34px 30px 30px;box-shadow:0 1px 0 #fff inset,0 30px 50px -28px rgba(0,0,0,.35),0 0 0 1px rgba(0,0,0,.04);position:relative;cursor:grab}
+.hang .card::before{content:"";position:absolute;inset:12px;border-radius:18px;border:1px solid #e2e2e2;pointer-events:none}
+.hang .no{font-family:var(--hand);font-size:28px;color:var(--pink)}
+.hang h3{font-size:28px;margin:2px 0 2px}
+.hang .role{font-weight:600;font-size:14.5px}
+.hang .date{font-size:13px;color:#888;margin-bottom:10px}
+.hang p{font-size:14.5px;color:#616161;line-height:1.55}
+.hang.h1{right:2%;top:0}
+.hang.h2{left:4%;top:250px}
+.hang.h3{right:4%;top:560px}
+.hang.h4{left:7%;top:720px}
+.still{position:absolute;left:47%;top:1010px;font-family:var(--hand);font-size:32px;transform:rotate(5deg);color:var(--ink)}
